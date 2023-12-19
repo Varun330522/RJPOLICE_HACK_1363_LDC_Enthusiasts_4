@@ -1,0 +1,45 @@
+ Analysis of FIR using AI/ML for proper Act and Section
+
+Problem Statement:
+Design and develop a software/portal to assist law enforcement in accurately and comprehensively drafting First Information Reports (FIRs) using advanced NLP, machine learning, and structured data representation.
+Data Acquisition and Preprocessing
+Textual complaints from complainants (written/recorded), evidence photos.
+Language identification, OCR for handwritten complaints (initially in Hindi/English), picture-to-text conversion, and text normalization are among the preprocessing techniques used.
+Natural Language Processing (NLP)
+Event Classification: Sorting complaints according to FIR classifications (such as theft and assault).
+Identification of activities/Crimes: The identification of certain activities and possible crimes described.
+Structured Data Representation
+Putting information that has been extracted into structured formats (like JSON or XML).
+Mapping: Linking applicable IPC sections and legal provisions to entities and actions.
+State-specific regulations and regional variances should be incorporated for proper reporting.
+AI/ML Model
+Predict pertinent IPC sections using context and information that has been gathered.
+Provide the officer with suggestions for further sections to review.
+Gain more completeness and accuracy over time by learning.
+User Interface and Interaction
+Interface: An officer-friendly interface for entering the details of complaints.
+Display: Presenting entities that have been detected, extracted data, and possible IPC sections.
+Modification: Permitting officers to add more information, edit, or validate portions.
+Draft Generation: Using user input and structured data, a draft FIR is created.
+
+Integration and Reporting
+CCTNS Integration: Data sharing and record-keeping are seamlessly integrated with CCTNS.
+Software and Technology:
+Programming Languages:
+Python
+ReactJs
+Frameworks & Libraries:
+NLTK (Natural Language Toolkit)
+TensorFlow or PyTorch (for machine learning and deep learning)
+Tesseract OCR for Optical Character Recognition (OCR) engines
+Databases:
+Neo4j: A popular and well-established graph database platform with a strong community and extensive documentation.
+Web Development:
+Frontend: ReactJS
+Backend: Django
+
+Team Members & Responsibilities:
+Rohan Mistry: Frontend And Integration With Backend
+Parth Singh: Image To Text and Preprocessing
+Varun Sheth:-  NLP Analysis (Classification,Action/Crime)
+Aditya Vaishya : Structured Data Representation  Model Predication
